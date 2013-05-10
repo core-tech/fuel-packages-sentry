@@ -1,0 +1,17 @@
+{
+	"name": "core-tech/fuel-packages-sentry",
+	"type": "fuel-package",
+	"require": {
+		"composer/installers": "*",
+		"raven/raven": "dev-master"
+	},
+	"extra": {
+		"installer-name": "sentry"
+	},
+	"authors": [
+		{
+			"name": "CoreTech Co.,Ltd."
+		}
+	],
+	"license": "MIT"
+}
