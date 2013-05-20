@@ -71,9 +71,9 @@ class Sentry {
 <<<__SCRIPT__
 	<script src="http://d3nslu0hdya83q.cloudfront.net/dist/1.0/raven.min.js"></script>
 	<script>
-		window.onload = function() {
+		if(typeof Raven != 'undefined'){
 			Raven.config('{$dsn_js}', {$opt_json}).install();
-		};
+		}
 	</script>
 __SCRIPT__;
 	}
